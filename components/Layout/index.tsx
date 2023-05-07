@@ -1,10 +1,16 @@
+import { ReactNode } from 'react';
 import Footer from '../Footer/index';
 import Header from '../Header/index';
 
-export default function Layout() {
+interface LayoutProps {
+  children: ReactNode;
+}
+export default function Layout(props: LayoutProps) {
+  const { children } = props;
   return (
     <>
       <Header />
+      <div>{children}</div>
       <Footer />
     </>
   );
