@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import Footer from '../Footer/index';
 import Header from '../Header/index';
 
 interface LayoutProps {
@@ -11,7 +10,6 @@ export default function Layout(props: LayoutProps) {
     <>
       <Header />
       <div>{children}</div>
-      <Footer />
     </>
   );
 }
