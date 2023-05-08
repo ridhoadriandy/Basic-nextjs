@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <>
       <header className="fixed w-full">
-        <div className="py-3 md:py-4 px-4 mx-auto flex flex-row justify-between items-center md:max-w-3xl lg:max-w-7xl">
+        <div className="py-3 md:py-4 px-4 mx-auto flex flex-row justify-between items-center md:max-w-2xl lg:max-w-4xl xl:max-w-7xl">
           <div className="flex place-items-center space-x-6">
             <Link href="/">
               <div className="flex py-2 md:px-3 space-x-2 md:space-x-4 items-center ">
